@@ -55,7 +55,7 @@ El flujo de datos implementado para este proyecto es el siguiente:
 
 * Los datos son extraidos de la [API del Banco Mundial](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information) y son almacenados en LANDING ZONE.
 * Luego, mediante  el uso de Kubernets los datos son transformados y enviados a una zona momentanea llamada STAGING ZONE y finalmente, los datos transformados se depositan en un data warehouse utilizando Big Query.
-* Todo el flujo de trabajo anterior es orquestado mediante Airflow y Google Composer.
+* Todo el flujo de trabajo anterior es orquestado mediante Airflow y Google Composer
 * Finalmente los datos quedan disponibles para el área de Analytics y Machine Learning, los cuales obtenen datos en tiempo real de la API.
 
 ## *Video demostrativo*
